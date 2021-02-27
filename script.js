@@ -8,7 +8,7 @@ function nextCard(){
 }
 
 function checkCard(){
-	if (input.value = pictures[i])
+	if (document.getElementById('inputbox').value == pictures[i])
 		{
 			document.getElementById('message').value = "Correct!";
 			$("#card_wpic").html("<img src='" + pictures[i] + "_word" +".jpg'/>"); //moves word and pic img on if input test correct

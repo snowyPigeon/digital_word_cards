@@ -2,15 +2,17 @@
 <head>
 <title>Electronic Picture Word Cards</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
 <div class="main">
+<h1>Electronic Picture Word Cards</h1>
 <div class="portal">
 <div class="learning-card" id="card_pic">
 <img id="card_pic" src="bell.jpg" /><img id="card_wpic" src="" />
 </div>
-<input type="text" id="inputbox">Enter the word here</input><br />
+<input type="text" id="inputbox"></input><label>Enter the word here</label><br />
 <input type="text" id="message" readonly></input><label>Message</label><br />
 <button id="check" onclick="checkCard()">check</button>
 <button id="next" onclick="nextCard()">next</button>
