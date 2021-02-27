@@ -1,0 +1,37 @@
+.main {
+	
+}
+
+.portal{
+	
+}
+
+.learning-card{
+	height: 400px;
+	
+}
+
+#message {
+	width: 250px;
+}
+
+#inputbox {
+	width: 250px;
+	
+}
+
+#check {
+	font-family: "Arial";
+}
+
+#next {
+	font-family: "Arial";
+}
+
+#card_pic {
+	height: 300px;
+}
+
+#card_wpic {
+	height: 300px;
+}
